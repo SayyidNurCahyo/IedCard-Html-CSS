@@ -1,0 +1,36 @@
+body {
+    margin-top: 15vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #ffff9d;
+}
+
+.rhombuses {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    transform: rotate(45deg);
+}
+
+.rhombus {
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+}
+
+.rhombus:nth-child(odd) {
+    background-color: #0aa30a;
+}
+
+.rhombus:nth-child(even) {
+    background-color: #6ebf20;
+}
+
+.caption {
+    font-family: "Sofia", sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
